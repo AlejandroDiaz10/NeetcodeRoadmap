@@ -14,7 +14,6 @@ Input: nums = [1,1,1,3,3,4,3,2,4,2]
 Output: true
 */
 
-
 #include <unordered_map>
 using namespace std;
 
@@ -38,4 +37,4 @@ public:
 
 // Why using unordered map?
 // It is part of the C++ Standard Library (introduced in C++11) and is the standard way to implement a hash table in C++.
-// The average time complexity for inserting, deleting, and finding elements in an unordered_map is O(1) 
+// The average time complexity for inserting, deleting, and finding elements in an unordered_map is O(1). 
